@@ -1,0 +1,10 @@
+blockchains:
+  BDU_BOOK_STORE:
+    module: main
+compile:
+  rellVersion: 0.13.14
+database:
+  schema: schema_BDU_BOOK_STORE
+test:
+  modules:
+    - test
